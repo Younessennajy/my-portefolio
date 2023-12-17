@@ -1,0 +1,84 @@
+/* Navbar.css */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  background-color: transparent;
+  position: relative;
+  color: white;
+  padding: 10px 10px;
+}
+
+.container .logo {
+    font-size: 2rem;
+    margin: 30px 50px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .container .logo .name{
+    letter-spacing: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+  }
+  .container .logo .point{
+    color: red;
+  }
+  .container nav {
+    width: auto;
+    height: 2%;
+    margin-right: 40px;
+    position: relative;
+}
+/* Navbar.css */
+  .container ul {
+    display: flex;
+    justify-content: flex-end; 
+  }
+  .container ul li {
+    list-style: none;
+    margin-right:5% ;
+  }
+  .container ul li a{
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .container ul li a:hover{
+    color: #db3b65;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+    .container nav{
+      margin-left: 80%;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container nav {
+        line-height: 30px;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-left: 20%;
+        margin-bottom: 4%;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+}

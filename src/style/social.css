@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:8% ;
+  }
+  
+  .links ul {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    outline: none;
+    padding: 20px 10px;
+    background-color: #2b2a3f;
+  }
+  
+  .links ul li {
+    margin-bottom: 25px;
+    list-style: none;
+  }
+  
+  .links ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 35px;
+    border-radius: 10px;
+  }
+  
+  .links ul li a:hover {
+    color: #fff;
+  }
+  
+
+  
+  

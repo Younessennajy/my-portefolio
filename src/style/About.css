@@ -1,0 +1,243 @@
+.portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+.side1 {
+  width: 700px;
+  margin-top: -100px;
+}
+
+.side1 h4 {
+  font-size: 70px;
+  font-family: sans-serif;
+  margin-bottom: -7px;
+}
+
+.side1 h4 span {
+  color: rgb(240, 30, 30);
+}
+
+.side1 p {
+  color: #8b8897;
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+.side1 .stats {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.side1 .stats .stat {
+  top: 0;
+  width: 100px;
+  padding-right: 30px;
+  border-right: 2px solid white;
+  margin-right: 20px;
+  margin-left: 30px;
+  line-height: 18px;
+}
+
+.side1 .stats .stat:last-child {
+  border: none;
+}
+
+.stat p {
+  font-size: 35px;
+  color: #f13024;
+}
+
+.stat h5 {
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+/* side 2 */
+.side2 {
+  width: 600px;
+  padding: 20px;
+}
+
+.side2 .nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.side2 .nav div {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.active {
+  color: #f13024;
+  cursor: pointer;
+}
+
+.skills {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills:hover .OtherSkills:hover,
+.experience:hover {
+  cursor: pointer;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.skills caption {
+  font-weight: bold;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #8b8897;
+}
+
+.myimg {
+  position: fixed;
+  bottom: 0;
+  transform: translateX(0%);
+}
+
+.skills li {
+  font-size: xx-large;
+  margin-right: 10px;
+  margin-left: 9px;
+}
+
+.skills li:hover {
+  color: #f13024;
+  cursor: pointer;
+}
+
+.experience {
+  margin-left: 50px;
+}
+
+.OtherSkills {
+  margin-top: 20px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+  text-align: center;
+}
+
+.OtherSkills li {
+  list-style-type: none;
+}
+
+
+@media all and (max-width: 1400px) and (min-width: 1000px) {  
+  .portfolio{
+    flex-direction: column;
+    margin-left:20%;
+    width: 900px;
+    margin-top: 60px;
+  }
+  .side1 h4 {
+    font-size: 40px;
+  }
+
+  .side2 {
+    width: 85%;
+    justify-content: center;
+  }
+
+  .side2 .nav div {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .social {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .portfolio {
+    flex-direction: column;
+  }
+  .myimg{
+    display: none;
+  }
+
+  .side1 {
+    width: 90%;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .side1 h4 {
+    font-size: 40px;
+  }
+
+  .side2 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .side2 .nav div {
+    font-size: 22px;
+
+    margin-bottom: 10px;
+  }
+
+  .social {
+    display: none;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .myimg{
+    display: none;
+  }
+  .side1 h4 {
+    font-size: 30px;
+  }
+
+  .stat p {
+    font-size: 25px;
+  }
+
+  .stat h5 {
+    font-size: 16px;
+  }
+
+  .side2 .nav div {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 18px;
+  }
+  
+  .skills li {
+    font-size: x-large;
+    margin-right: 8px;
+    margin-left: 7px;
+  }
+
+  .skills:hover .OtherSkills:hover,
+  .experience:hover {
+    cursor: pointer;
+    font-size: 33px;
+
+  }
+
+  .OtherSkills {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 22px;
+  }
+}

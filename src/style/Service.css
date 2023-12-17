@@ -1,0 +1,131 @@
+/* Service.css */
+
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px; /* Adjusted margin for better responsiveness */
+  position: relative;
+  flex-direction: column; /* Added to make it responsive on small screens */
+}
+
+.btn-slide {
+  border: none;
+  font-size: 20px; /* Adjusted font size for better visibility on small screens */
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px 0; /* Adjusted margin for better spacing on small screens */
+}
+
+.btn-slide:hover {
+  color: blue;
+}
+
+.firstside {
+  width: 100%; /* Full width on small screens */
+  max-width: 600px;
+  padding: 20px;
+}
+
+.splide {
+  max-width: 100%; /* Full width on small screens */
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.firstside h1 span {
+  color: red;
+}
+
+.service-item {
+  width: 100%; /* Full width on small screens */
+  padding: 20px;
+  margin: 15px;
+  color: #211942;
+  background-color: #211942;
+  border-radius: 8px;
+  height: auto; /* Adjusted to accommodate variable content height */
+
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px;
+}
+
+h1 {
+  font-size: 3em; /* Adjusted font size for better visibility on small screens */
+  color: #fff;
+}
+
+.firstside p {
+  font-size: 18px; /* Adjusted font size for better readability on small screens */
+  color: #777;
+}
+
+.splide p {
+  font-size: 16px; /* Adjusted font size for better readability on small screens */
+  color: #777;
+}
+
+.splide h3 {
+  color: #fff;
+}
+
+.splide h2 {
+  font-size: 25px; /* Adjusted font size for better readability on small screens */
+  color: red;
+}
+
+.bullbo {
+  position: fixed;
+  bottom: 0;
+  transform: translateX(0%);
+}
+
+@media screen and (min-width: 600px) {
+  .service {
+      flex-direction: row; /* Adjusted to flex-direction: row on larger screens */
+  }
+
+  .btn-slide {
+      font-size: 30px;
+  }
+
+  .firstside {
+      width: 600px;
+  }
+
+  .splide {
+      max-width: 900px;
+  }
+
+  .h1 {
+      font-size: 5em;
+  }
+
+  .firstside p {
+      font-size: 33px;
+  }
+
+  .splide p {
+      font-size: 22px;
+  }
+
+  .splide h2 {
+      font-size: 35px;
+  }
+}
+@media all and (max-width: 1300px) {
+  .service{
+    color: red;
+    flex-direction: column;
+  }
+  .bullbo{
+    display:none ;
+  }
+  
+}

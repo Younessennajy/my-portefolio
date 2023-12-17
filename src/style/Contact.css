@@ -1,0 +1,75 @@
+body{
+  background-color: rgb(28, 22, 56);
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .contact h1{
+    font-size:90px ;
+    text-align: center;
+  }
+  .connect{
+    color:  #f13024;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input,
+  textarea {
+    color: #fff;
+    font-size: 24px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #47445c;
+
+  }
+  .contact button {
+    padding: 10px;
+    font-size: xx-large;
+    background-color:transparent;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #47445c;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    color: blue;
+    background: linear-gradient(to bottom,red, #1c1638, #0a0433,red);
+  }
+
+  input:focus,textarea:focus{
+    border-color: red;
+  }
+
+  @media all and (max-width: 600px) {
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+    form{
+      padding: 10px;
+    }
+  }
+  
+  
