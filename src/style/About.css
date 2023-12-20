@@ -161,9 +161,7 @@
     margin-bottom: 10px;
   }
 
-  .social {
-    display: none;
-  }
+  
 }
 
 @media all and (max-width: 1000px) {

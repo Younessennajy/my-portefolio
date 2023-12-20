@@ -28,6 +28,7 @@ body {
   }
   
   .links ul li a {
+    cursor: pointer;
     text-decoration: none;
     color: black;
     padding: 10px;
@@ -36,7 +37,7 @@ body {
   }
   
   .links ul li a:hover {
-    color: #fff;
+    color: brown;
   }
   
 

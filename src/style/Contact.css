@@ -55,7 +55,7 @@ body{
   
   .contact button:hover {
     color: blue;
-    background: linear-gradient(to bottom,red, #1c1638, #0a0433,red);
+    background: linear-gradient(to bottom, #1c1638, #0a0433,red);
   }
 
   input:focus,textarea:focus{

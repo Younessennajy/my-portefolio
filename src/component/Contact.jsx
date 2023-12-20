@@ -20,7 +20,7 @@ const Contact = () => {
           <textarea id="message" name="message" rows="4" placeholder='Message' required></textarea>
         </div>
 
-        <button type="submit" >Let's talk</button>
+        <button type="submit" class="alternative" >Let's talk</button>
       </form>
     </div>
   );
