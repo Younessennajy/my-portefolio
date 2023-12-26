@@ -7,7 +7,7 @@ import {FaDownload} from 'react-icons/fa';
 function Home() {
 
 const handleDownload = () => {
-  const cvFileName = 'cv.pdf';
+  const cvFileName = 'Cv_Ennajy_Youness.pdf';
   const link = document.createElement('a');
   link.href = `${process.env.PUBLIC_URL}/${cvFileName}`;
   link.download = cvFileName;
