@@ -71,15 +71,7 @@
     color: #4CAF50; 
   }
   
-/* #cv-btn{
-    background: transparent;
-    border:  none;
-    font-size: 22px;
-    margin-left: ;
-  }
-  #cv-btn:hover{
-    color: brown;
-  } */
+
 /* media */
  @media only screen and (max-width: 1000px)and (min-width:1200) {
     .description_home h2{
